@@ -25,9 +25,9 @@ function update(mode) {
       const controller = me.getDatasetMeta(datasetIndex).controller;
 
       // Set transition mode to 'quiet'
-      controller._setStyle = function(element, index, _mode, active) {
-        DatasetController.prototype._setStyle.call(this, element, index, 'quiet', active);
-      };
+      // controller._setStyle = function(element, index, _mode, active) {
+      //   DatasetController.prototype._setStyle.call(this, element, index, 'quiet', active);
+      // };
     });
   }
 

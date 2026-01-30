@@ -166,14 +166,14 @@ export function attachChart(plugin, chart) {
 
     initAnnotationPlugin();
     streaming.annotationPlugin = plugin;
-    plugin.afterUpdate = (_chart, args, options) => {
+    plugin.afterUpdate = (chart, args, options) => {
       const mode = args.mode;
       const animationOpts = options.animation;
 
       if (mode === 'quiet') {
         options.animation = false;
       }
-      afterUpdate.call(this, _chart, args, options);
+      afterUpdate.call(this, chart, args, options);
       if (mode === 'quiet') {
         options.animation = animationOpts;
       }
