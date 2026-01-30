@@ -1,9 +1,9 @@
 {
-  "name": "chartjs-plugin-streaming",
-  "homepage": "https://nagix.github.io/chartjs-plugin-streaming",
+  "name": "chartjs-plugin-streaming-react",
+  "homepage": "https://github.com/NotPunchnox/chartjs-plugin-streaming-react",
   "description": "Chart.js plugin for live streaming data",
-  "author": "Akihiko Kusanagi <nagi@nagi-p.com> (https://nagix.github.io/)",
-  "version": "2.0.0",
+  "author": "punchnox <punchnoxpro@gmail.com>",
+  "version": "2.0.1",
   "license": "MIT",
   "jsdelivr": "dist/chartjs-plugin-streaming.min.js",
   "unpkg": "dist/chartjs-plugin-streaming.min.js",
@@ -12,10 +12,10 @@
   "types": "types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nagix/chartjs-plugin-streaming.git"
+    "url": "https://github.com/NotPunchnox/chartjs-plugin-streaming-react.git"
   },
   "bugs": {
-    "url": "https://github.com/nagix/chartjs-plugin-streaming/issues"
+    "url": "https://github.com/NotPunchnox/chartjs-plugin-streaming-react/issues"
   },
   "keywords": [
     "chart.js",
