@@ -769,7 +769,7 @@ var defaults = new Defaults({
   }
 });
 function clipArea(ctx, area) {
-  ctx.save();
+//   ctx.save();
   ctx.beginPath();
   ctx.rect(area.left, area.top, area.right - area.left, area.bottom - area.top);
   ctx.clip();
