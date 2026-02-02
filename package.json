@@ -3,7 +3,7 @@
   "homepage": "https://github.com/NotPunchnox/chartjs-plugin-streaming-react",
   "description": "Chart.js plugin for live streaming data",
   "author": "punchnox <punchnoxpro@gmail.com>",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "license": "MIT",
   "jsdelivr": "dist/chartjs-plugin-streaming-react.min.js",
   "unpkg": "dist/chartjs-plugin-streaming-react.min.js",
